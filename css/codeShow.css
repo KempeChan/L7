@@ -1,0 +1,61 @@
+<style>
+pre.code {
+    margin:20px 25px;
+    border:1px solid;
+    border-color:#CDD2D6 #BFC6CB #B3BBC1 #BFC6CB;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    border-radius:2px;
+    position:relative;
+    -webkit-box-shadow:0 1px 1px rgba(0,0,0,.08);
+    -moz-box-shadow:0 1px 1px rgba(0,0,0,.08);
+    box-shadow:0 1px 1px rgba(0,0,0,.08);
+}
+pre.code label {
+    font-family:sans-serif;
+    font-weight:bold;
+    font-size:13px;
+    color:#4b555c;
+    position:absolute;
+    left:1px;
+    top:16px;
+    text-align:center;
+    width:60px;
+}
+pre.code code {
+    font-family:"Inconsolata", "Monaco", "Consolas", "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+    display:block;
+    margin:0 0 0 60px;
+    padding:15px 16px 14px;
+    border-left:1px #E5EAEE solid;
+    overflow-x:auto;
+    font-size:13px;
+    line-height:19px;
+    color:#333;    
+}
+pre.code-css code {
+    color:#D84400;
+}
+pre.code-html code {
+    color:#4576D5;
+}
+</style>
+<pre class='code code-html'>
+	<label>HTML</label>
+	<code>&lt;button&gt;Press Me!&lt;/button&gt;</code>
+</pre>
+
+<pre class='code code-css'>
+	<label>CSS</label>
+	<code>
+button {
+  width:20px;
+  height:28px;
+  color:#fff;
+  font-size:28px;
+  padding:11px 15px;
+  border-radius:5px;
+  background:#14ADE5;
+}
+	</code>
+</pre>
